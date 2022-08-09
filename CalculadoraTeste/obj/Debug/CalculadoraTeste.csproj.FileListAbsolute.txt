@@ -6,3 +6,11 @@ C:\Users\Lucas\Desktop\Programation\ESTUDOS\André Mentor DEV BACKEND\cursoAndre
 C:\Users\Lucas\Desktop\Programation\ESTUDOS\André Mentor DEV BACKEND\cursoAndre\CalculadoraTeste\CalculadoraTeste\bin\Debug\CalculadoraTeste.pdb
 C:\Users\Lucas\Desktop\Programation\ESTUDOS\André Mentor DEV BACKEND\cursoAndre\CalculadoraTeste\CalculadoraTeste\obj\Debug\CalculadoraTeste.exe
 C:\Users\Lucas\Desktop\Programation\ESTUDOS\André Mentor DEV BACKEND\cursoAndre\CalculadoraTeste\CalculadoraTeste\obj\Debug\CalculadoraTeste.pdb
+C:\Users\Lucas\Desktop\Programation\ESTUDOS\Andre_Mentor_DEV_BACKEND\cursoAndre\Calculadora_CMD_CSHARP\CalculadoraTeste\bin\Debug\CalculadoraTeste.exe.config
+C:\Users\Lucas\Desktop\Programation\ESTUDOS\Andre_Mentor_DEV_BACKEND\cursoAndre\Calculadora_CMD_CSHARP\CalculadoraTeste\bin\Debug\CalculadoraTeste.exe
+C:\Users\Lucas\Desktop\Programation\ESTUDOS\Andre_Mentor_DEV_BACKEND\cursoAndre\Calculadora_CMD_CSHARP\CalculadoraTeste\bin\Debug\CalculadoraTeste.pdb
+C:\Users\Lucas\Desktop\Programation\ESTUDOS\Andre_Mentor_DEV_BACKEND\cursoAndre\Calculadora_CMD_CSHARP\CalculadoraTeste\obj\Debug\CalculadoraTeste.csproj.AssemblyReference.cache
+C:\Users\Lucas\Desktop\Programation\ESTUDOS\Andre_Mentor_DEV_BACKEND\cursoAndre\Calculadora_CMD_CSHARP\CalculadoraTeste\obj\Debug\CalculadoraTeste.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucas\Desktop\Programation\ESTUDOS\Andre_Mentor_DEV_BACKEND\cursoAndre\Calculadora_CMD_CSHARP\CalculadoraTeste\obj\Debug\CalculadoraTeste.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\Programation\ESTUDOS\Andre_Mentor_DEV_BACKEND\cursoAndre\Calculadora_CMD_CSHARP\CalculadoraTeste\obj\Debug\CalculadoraTeste.exe
+C:\Users\Lucas\Desktop\Programation\ESTUDOS\Andre_Mentor_DEV_BACKEND\cursoAndre\Calculadora_CMD_CSHARP\CalculadoraTeste\obj\Debug\CalculadoraTeste.pdb

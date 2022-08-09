@@ -8,7 +8,7 @@ namespace CalculadoraTeste
 {
     internal class Program
     {
-        enum Menu { add = 1, subtract, share, multiply, potency, source, close };
+        enum Menu { add = 1, subtract, share, multiply, potency, squareRoot, close };
         static void Main(string[] args)
         {
             bool closeProgram = false;
@@ -16,7 +16,7 @@ namespace CalculadoraTeste
             while (!closeProgram)
             {
                 Console.WriteLine("Selecione uma das opções abaixo: ");
-                Console.WriteLine("-> 1 - SOMAR\n-> 2 - SUBTRAIR\n-> 3 - DIVIDIR\n-> 4 - MULTIPLICAR\n-> 5 - POTÊNCIA\n-> 6 - RAIZ\n-> 7 - ENCERRAR\n");
+                Console.WriteLine("-> 1 - SOMAR\n-> 2 - SUBTRAIR\n-> 3 - DIVIDIR\n-> 4 - MULTIPLICAR\n-> 5 - POTÊNCIA\n-> 6 - RAIZ QUADRADA\n-> 7 - ENCERRAR\n");
                 Menu opcao = (Menu)int.Parse(Console.ReadLine());
                 switch (opcao)
                 {
@@ -24,35 +24,109 @@ namespace CalculadoraTeste
                         Console.Clear();
                         Console.WriteLine("* Calculadora encerrada com sucesso *");
                         closeProgram = true;
+                        Console.ReadLine();
                         break;
                     case Menu.add:
-                        Console.WriteLine("* Opção ADICIONAR selecionada *");
                         Console.Clear();
+                        Console.WriteLine("* Opção ADICIONAR selecionada *\n");
+                        addFunction();                        
                         break;
                     case Menu.subtract:
-                        Console.WriteLine("* Opção SUBTRAIR selecionada *");
                         Console.Clear();
+                        Console.WriteLine("* Opção SUBTRAIR selecionada *\n");
+                        subtractFunction();
                         break;
                     case Menu.share:
-                        Console.WriteLine("* Opção DIVIDIR selecionada *");
                         Console.Clear();
+                        Console.WriteLine("* Opção DIVIDIR selecionada *\n");
+                        shareFunction();
                         break;
                     case Menu.multiply:
-                        Console.WriteLine("* Opção MULTIPLICAR selecionada *");
                         Console.Clear();
+                        Console.WriteLine("* Opção MULTIPLICAR selecionada *\n");
+                        multiplyFunction();
                         break;
                     case Menu.potency:
-                        Console.WriteLine("* Opção POTENCIA selecionada *");
                         Console.Clear();
+                        Console.WriteLine("* Opção POTENCIA selecionada *\n");
+                        potencyFunction();
                         break;
-                    case Menu.source:
-                        Console.WriteLine("* Opção RAIZ selecionada *");
+                    case Menu.squareRoot:
                         Console.Clear();
+                        Console.WriteLine("* Opção RAIZ QUADRADA selecionada *\n");
+                        squareRootFunction();
                         break;
                 }
-                Console.ReadLine();
             }
+        }
+        
+        static void addFunction()
+        {
+            Console.WriteLine("Informe o primeiro número: ");
+            float a = float.Parse(Console.ReadLine());
+            Console.WriteLine("Informe o segundo número: ");
+            float b = float.Parse(Console.ReadLine());
+            float result = a + b;
+            Console.WriteLine($"O resultado da soma é: {result}. \nPressione ENTER para seguir em frente.");
+            Console.ReadLine();
+            Console.Clear();
+        }
+        
+        static void subtractFunction()
+        {
+            Console.WriteLine("Informe o primeiro número: ");
+            float a = float.Parse(Console.ReadLine());
+            Console.WriteLine("Informe o segundo número: ");
+            float b = float.Parse(Console.ReadLine());
+            float result = a - b;
+            Console.WriteLine($"O resultado da subtração é: {result}. \nPressione ENTER para seguir em frente.");
+            Console.ReadLine();
+            Console.Clear();
+        }
 
+        static void shareFunction()
+        {
+            Console.WriteLine("Informe o primeiro número: ");
+            float a = float.Parse(Console.ReadLine());
+            Console.WriteLine("Informe o segundo número: ");
+            float b = float.Parse(Console.ReadLine());
+            float result = a/b;
+            Console.WriteLine($"O resultado da divisão é: {result}. \nPressione ENTER para seguir em frente.");
+            Console.ReadLine();
+            Console.Clear();
+        }
+
+        static void multiplyFunction()
+        {
+            Console.WriteLine("Informe o primeiro número: ");
+            float a = float.Parse(Console.ReadLine());
+            Console.WriteLine("Informe o segundo número: ");
+            float b = float.Parse(Console.ReadLine());
+            float result = a*b;
+            Console.WriteLine($"O resultado da multiplicação é: {result}. \nPressione ENTER para seguir em frente.");
+            Console.ReadLine();
+            Console.Clear();
+        }
+        static void potencyFunction()
+        {
+            Console.WriteLine("Informe a base da potência: ");
+            float baseNumber = float.Parse(Console.ReadLine());
+            Console.WriteLine("Informe a potência: ");
+            float potencyNumber = float.Parse(Console.ReadLine());
+            float result = (float)Math.Pow(baseNumber,potencyNumber);
+            Console.WriteLine($"O resultado de {baseNumber}^{potencyNumber} é: {result}. \nPressione ENTER para seguir em frente.");
+            Console.ReadLine();
+            Console.Clear();
+        }
+
+        static void squareRootFunction()
+        {
+            Console.WriteLine("Informe o número: ");
+            float baseNumber = float.Parse(Console.ReadLine());
+            float result = (float)Math.Sqrt(baseNumber);
+            Console.WriteLine($"O resultado d raíz quadrada de {baseNumber} é: {result}. \nPressione ENTER para seguir em frente.");
+            Console.ReadLine();
+            Console.Clear();
         }
     }
 }
